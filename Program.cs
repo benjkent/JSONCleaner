@@ -13,7 +13,7 @@ Console.WriteLine("Hello, Regular Expressions");
     MatchCollection matches = rx.Matches(input);
 
     
-    Console.WriteLine("Found: " + matches.Count);
+    Console.WriteLine($"Found: {matches.Count} instances.");
     
     foreach (Match m in Regex.Matches(input, pattern, options))
     {
