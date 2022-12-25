@@ -16,3 +16,4 @@
 - \ where they follow =
 - \ where they follow a-z characters
 - \ where they follow 0-9 characters
+### FindAndReplace also prints the output of the resulting replacement, rather omission of the found characters: backslashes \
